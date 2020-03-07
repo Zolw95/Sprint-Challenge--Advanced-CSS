@@ -1,7 +1,7 @@
 # Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling.
-
+ 
 ## Instructions
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Fully responsive website is fluid and adapts to the size of the screen. Basically there are multiple layouts of the same page that changes on screen re-size. Adaptive design uses static layouts based on breakpoints which don't respond and is less flexible than fully responsive design. Also, responsize designs tend to load faster than adaptive designs.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means to start creating a website while having the mobile view in mind at first. Later scale the layout upwards to adapt to desktop computers. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+62.5% means it is that percentage off of 16px - which is the default font size in the browser. It sets a default size in your page to 10px (62.5%) and makes it easier to work with different font sizes without having to do so much math.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+
+Preprocess are tools that extend the functionality of vanilla CSS by adding a wide variety of syntax. Preprocessors take code written this this new and versatile syntax, and then compile it into traditional css that browsers can work with. One of the functionalities that preprocessors provide you with are variables. Variables keep your code dry because they let you store a set of functions in one line of code instead of one or more lines of code. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+multiple places, I can easily change that one line of code in one place which will affect all the other places - without having to look for every single line of code that needs to be changed. I haven't had any issues with preprocessing so far.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

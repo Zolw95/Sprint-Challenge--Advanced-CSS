@@ -1,1 +1,32 @@
 // Navigation code here
+
+div.navigation {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    .center();
+    padding-top: 2%;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    h1 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 4rem;
+        margin-bottom: 2%;
+    }
+    nav {
+        display: flex;
+        width: 55%;
+        justify-content: space-evenly;
+        padding-bottom: 2%;
+        @media @phone {
+            width: 90%;
+        }
+        a {
+            text-decoration: none;
+            font-size: 1.6rem;
+            color: black;
+        }
+    }
+}
